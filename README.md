@@ -5,7 +5,8 @@
 
 # Description
 
-Simple ascii homepage is a simple and lightweight, dark homepage for developers. It gives users quick access to their favorite websites.
+Simple ascii homepage is a simple and lightweight, dark, home/new tab page for developers. It gives users quick access to their favorite websites.
+
 As the page is completely customizable, users can (and are encouraged to) customize the page to their own liking (links, categories, colors, etc.).
 
 
