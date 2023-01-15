@@ -1,0 +1,81 @@
+/* color palette: https://colorhunt.co/palette/8200004e6c50f2debafaecd6 */
+/* https://colorhunt.co/palettes/vintage */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Courier New", Courier, monospace;
+}
+
+body {
+  background-color: #080808;
+
+  /* prevent text select */
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
+
+h1,
+ul,
+li,
+p {
+  color: #f7f7f7;
+}
+
+ul {
+  list-style-type: none; /* removes bullet points */
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  cursor: default;
+}
+
+a:hover {
+    /* color: #1d81b2; */
+    /* color: #FEC260; */
+    color: #D36B00;
+  }
+
+.main {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+}
+
+.main-container {
+  width: 80vw;
+  min-width: 800px;
+  display: flex;
+  justify-content: center;
+  z-index: 1;
+}
+
+.link-container {
+  margin: 0 26px;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 0.15rem;
+}
+
+.datetime {
+  color: #f7f7f7;
+  position: fixed;
+  font-size: 18px;
+  top: 1.3rem;
+  right: 2rem;
+}
+
+.image {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  z-index: 0;
+}
