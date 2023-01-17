@@ -1,4 +1,4 @@
-/* colors: https://colorhunt.co/palettes/vintage */
+/* nice colors: https://colorhunt.co/palettes/vintage */
 
 * {
   margin: 0;
@@ -17,10 +17,7 @@ body {
   user-select: none; /* Standard syntax */
 }
 
-h1,
-ul,
-li,
-p {
+h1, ul, li, p {
   /* color of the text (links and time) */
   color: #f7f7f7;
 }
