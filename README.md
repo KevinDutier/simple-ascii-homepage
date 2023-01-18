@@ -9,8 +9,11 @@ Simple ascii homepage is a simple and lightweight, dark, home/new tab page for d
 
 As the page is completely customizable, users can customize it to their own liking (links, categories, colors, etc.).
 
+example of customization:
 
-[example of customization](https://user-images.githubusercontent.com/111971458/212679491-c5ed2280-dbb8-4ebe-9e9d-60e235c664d9.png)
+![Screenshot 2023-01-18 at 22-13-22 Homepage](https://user-images.githubusercontent.com/111971458/213296184-0f894f53-1123-4761-b56c-4c595d65a141.png)
+
+
 
 ## Customizing
 
