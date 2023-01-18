@@ -1,43 +1,43 @@
-/* colors: https://colorhunt.co/palettes/vintage */
+/* nice colors: https://colorhunt.co/palettes/vintage */
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Courier New", Courier, monospace;
+  font-family: "Courier New", Courier, monospace; /* text font*/
 }
 
 body {
+  /* background color of the whole page */
   background-color: #080808;
 
-  /* prevent text select */
+  /* prevents text select */
   -webkit-user-select: none; /* Safari */
   -ms-user-select: none; /* IE 10 and IE 11 */
   user-select: none; /* Standard syntax */
 }
 
-h1,
-ul,
-li,
-p {
+h1, ul, li, p {
+  /* color of the text (links and time) */
   color: #f7f7f7;
 }
 
 ul {
-  list-style-type: none; /* removes bullet points */
+  /* removes default bullet points */
+  list-style-type: none;
 }
 
 a {
+  /* removes default link decoration (underline and blue color) */
   color: inherit;
   text-decoration: none;
   cursor: default;
 }
 
 a:hover {
-    /* color: #1d81b2; */
-    /* color: #FEC260; */
-    color: #D36B00;
-  }
+  /* color shown when user hovers on a link */
+  color: #d36b00;
+}
 
 .main {
   height: 100vh;
@@ -47,24 +47,28 @@ a:hover {
 }
 
 .main-container {
+  /* main container that encompasses all of the categories */
   width: 80vw;
   min-width: 800px;
   display: flex;
   justify-content: center;
-  z-index: 1;
+  z-index: 1; /* displays text above the image, if they ever overlap */
 }
 
 .link-container {
+  /* container used by each individual category */
   margin: 0 26px;
 }
 
 .title {
+  /* category title */
   font-size: 20px;
   font-weight: 400;
   margin-bottom: 0.15rem;
 }
 
-.datetime {
+.dateTime {
+  /* displays date and time at top right corner */
   color: #f7f7f7;
   position: fixed;
   font-size: 18px;
@@ -73,8 +77,9 @@ a:hover {
 }
 
 .image {
+  /* displays image at bottom right corner */
   position: fixed;
   bottom: 0;
   right: 0;
-  z-index: 0;
+  z-index: 0; /* displays image below text, if they ever overlap */
 }
